@@ -26,6 +26,7 @@ li {
     background-color: white;
     width: 1200px;
     margin: 40px auto; 
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* ------------------- */
@@ -75,6 +76,15 @@ li {
     color: #FB6D3A;
 }
 
+
+.periodo-experiencia {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
 /* sección proyectos */
 
 .lista-proyectos {
@@ -122,14 +132,6 @@ li {
     margin-bottom: 12px;
 }
 
-.periodo-empresa {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-}
-
 .barra {
     color: black;
     padding: 5px;
@@ -143,6 +145,10 @@ li {
     padding-left: 17px;
 }
 
+.lista-experiencia > li {
+    color: #595959;
+}
+
 /* Sección Educación */
 
 .titulo-lateral {
@@ -151,8 +157,7 @@ li {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-top: 50px;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .titulo-universidad {
